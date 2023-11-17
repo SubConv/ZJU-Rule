@@ -1,8 +1,8 @@
 payload:
-  # Forum
+  # > Forum
   - DOMAIN-SUFFIX,bitcointalk.org
 
-  # Exchange
+  # > Exchange
   - DOMAIN-SUFFIX,aex.com
   - DOMAIN-SUFFIX,bibox.com
   - DOMAIN-SUFFIX,bitfinex.com
@@ -38,7 +38,7 @@ payload:
   - DOMAIN-SUFFIX,zksync.io
   - DOMAIN-SUFFIX,boba.network
 
-  # Binance
+  # > Binance
   - DOMAIN-SUFFIX,binance.cc
   - DOMAIN-SUFFIX,binance.cloud
   - DOMAIN-SUFFIX,binance.com
@@ -77,7 +77,7 @@ payload:
   # PROCESS-NAME,Binance.exe
   - DOMAIN-KEYWORD,binance
 
-  # Huobi
+  # > Huobi
   - DOMAIN-SUFFIX,hbabit.com
   - DOMAIN-SUFFIX,hbfile.net
   - DOMAIN-SUFFIX,huobi.com
@@ -100,31 +100,31 @@ payload:
   # PROCESS-NAME,Huobi.exe
   - DOMAIN-KEYWORD,huobi
 
-  # OKX
+  # > OKX
   - DOMAIN-SUFFIX,okex.com
   - DOMAIN-SUFFIX,okx.com
   # PROCESS-NAME,OKX.exe
   - DOMAIN-KEYWORD,okx
 
-  # asproex
+  # > asproex
   - DOMAIN-SUFFIX,asproex.com
   - DOMAIN-SUFFIX,asproexapi.com
 
-  # bitflyer
+  # > bitflyer
   - DOMAIN-SUFFIX,bitflyer.com
   - DOMAIN-SUFFIX,bitflyer.jp
 
-  # bitsquare
+  # > bitsquare
   - DOMAIN-SUFFIX,bisq.io
   - DOMAIN-SUFFIX,bisq.network
   - DOMAIN-SUFFIX,bitsquare.io
 
-  # coinone
+  # > coinone
   - DOMAIN-SUFFIX,coinone.co.kr
   - DOMAIN-SUFFIX,coinonecore.com
   - DOMAIN-SUFFIX,coinonecorp.com
 
-  # ethereum
+  # > ethereum
   - DOMAIN-SUFFIX,devcon.org
   - DOMAIN-SUFFIX,ethereum.foundation
   - DOMAIN-SUFFIX,ethereum.org
@@ -144,17 +144,17 @@ payload:
   - DOMAIN-SUFFIX,parity.io
   - DOMAIN-SUFFIX,ethernodes.org
 
-  # localbitcoins
+  # > localbitcoins
   - DOMAIN-SUFFIX,localbitcoins.com
   - DOMAIN-SUFFIX,localbitcoinschain.com
 
-  # zb
+  # > zb
   - DOMAIN-SUFFIX,zb.app
   - DOMAIN-SUFFIX,zb.com
   - DOMAIN-SUFFIX,zb.io
   - DOMAIN-SUFFIX,zb.live
 
-  # Analysis
+  # > Analysis
   - DOMAIN-SUFFIX,aicoin.com
   - DOMAIN-SUFFIX,aimoon.com
   - DOMAIN-SUFFIX,coingecko.com
@@ -210,7 +210,7 @@ payload:
   - DOMAIN-SUFFIX,blockchain.com
   - DOMAIN-SUFFIX,tronscan.org
 
-  # POOL
+  # > POOL
   - DOMAIN-SUFFIX,btc.com
   - DOMAIN-SUFFIX,f2pool.com
   - DOMAIN-SUFFIX,cbeci.org
@@ -224,15 +224,15 @@ payload:
   - DOMAIN-SUFFIX,ethermine.org
   - DOMAIN-SUFFIX,ewapool.net
 
-  # FTX
+  # > FTX
   - DOMAIN-SUFFIX,ftx.com
 
-  # Metamask
+  # > Metamask
   - DOMAIN-KEYWORD,metamask
   - DOMAIN,token-api.metaswap.codefi.network
   - DOMAIN,min-api.cryptocompare.com
 
-  # NFT
+  # > NFT
   - DOMAIN-SUFFIX,opensea.io
   - DOMAIN-SUFFIX,nftscan.com
   - DOMAIN-SUFFIX,makersplace.com
@@ -242,14 +242,14 @@ payload:
   - DOMAIN-SUFFIX,nftcalendar.io
   - DOMAIN-SUFFIX,nftgo.io
 
-  # IPFS
+  # > IPFS
   - DOMAIN-SUFFIX,filecoin.io
   - DOMAIN-SUFFIX,docs.lotu.sh
   - DOMAIN-SUFFIX,ipfs.io
   - DOMAIN-SUFFIX,docs.ipfs.io
   - DOMAIN-SUFFIX,discuss.ipfs.io
 
-  # EOS
+  # > EOS
   - DOMAIN-SUFFIX,eos.io
   - DOMAIN-SUFFIX,developers.eos.io
   - DOMAIN-SUFFIX,block.one
@@ -258,13 +258,13 @@ payload:
   - DOMAIN-SUFFIX,eospark.com
   - DOMAIN-SUFFIX,bloks.io
 
-  # Lightning
+  # > Lightning
   - DOMAIN-SUFFIX,lightning.engineering
   - DOMAIN-SUFFIX,lightning.community
   - DOMAIN-SUFFIX,acinq.co
   - DOMAIN-SUFFIX,1ml.com
 
-  # Token
+  # > Token
   - DOMAIN-SUFFIX,tokenpocket.pro
   - DOMAIN-SUFFIX,token.im
   - DOMAIN-SUFFIX,phantom.app
@@ -273,14 +273,14 @@ payload:
   - DOMAIN-SUFFIX,jaxx.io
   - DOMAIN-SUFFIX,trustwalletapp.com
 
-  # Gate
+  # > Gate
   - DOMAIN-SUFFIX,gate.ac
   - DOMAIN-SUFFIX,gate.io
 
-  # Mexc
+  # > Mexc
   - DOMAIN-SUFFIX,mexc.com
 
-  # Dapp
+  # > Dapp
   - DOMAIN-SUFFIX,sushi.com
   - DOMAIN-SUFFIX,uniswap.org
   - DOMAIN-SUFFIX,sunswap.com
@@ -299,5 +299,5 @@ payload:
   - DOMAIN-SUFFIX,mdex.me
   - DOMAIN-SUFFIX,1inch.io
 
-  # Chippay
+  # > Chippay
   - DOMAIN-SUFFIX,chippay.com

@@ -1,7 +1,4 @@
 payload:
-  # 内容：xbox
-  # 数量：6条
-
   - DOMAIN-SUFFIX,xbox.com
   - DOMAIN-SUFFIX,xboxab.com
   - DOMAIN-SUFFIX,xboxab.net
