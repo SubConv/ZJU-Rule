@@ -30,20 +30,6 @@ DOMAIN-SUFFIX,zjuqsc.com
 # 查老师
 DOMAIN-KEYWORD,chalaoshi
 
-# 校内 IP
-IP-CIDR,10.0.0.0/8,no-resolve
-IP-CIDR,58.196.192.0/19,no-resolve
-IP-CIDR,58.196.224.0/20,no-resolve
-IP-CIDR,58.200.100.0/24,no-resolve
-IP-CIDR,210.32.0.0/20,no-resolve
-IP-CIDR,210.32.128.0/19,no-resolve
-IP-CIDR,210.32.160.0/21,no-resolve
-IP-CIDR,210.32.168.0/22,no-resolve
-IP-CIDR,210.32.172.0/23,no-resolve
-IP-CIDR,210.32.174.0/24,no-resolve
-IP-CIDR,210.32.176.0/20,no-resolve
-IP-CIDR,222.205.0.0/17,no-resolve
-
 # 通过 IP 认证的资源
 # 请勿添加可通过统一身份认证访问的国外资源，此类资源无需内网环境，可通过代理加速访问
 DOMAIN-SUFFIX,acm.org
