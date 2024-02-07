@@ -11,7 +11,7 @@ DOMAIN-SUFFIX,lan
 DOMAIN-SUFFIX,local
 DOMAIN-SUFFIX,localhost
 IP-CIDR,0.0.0.0/8,no-resolve
-IP-CIDR,10.0.0.0/8,no-resolve
+# IP-CIDR,10.0.0.0/8,no-resolve
 IP-CIDR,100.64.0.0/10,no-resolve
 IP-CIDR,127.0.0.0/8,no-resolve
 IP-CIDR,172.16.0.0/12,no-resolve
