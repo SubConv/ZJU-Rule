@@ -86,10 +86,30 @@ for root, dirs, files in os.walk("Clash"):
                         headless_rule.append("domain_suffix", line.split(",")[1])
                     elif line.split(",")[0] == "DOMAIN-KEYWORD":
                         headless_rule.append("domain_keyword", line.split(",")[1])
-                    elif line.split(",")[0] == "DOMAIN-CIDR":
+                    elif line.split(",")[0] == "DOMAIN-REGEX":
+                        headless_rule.append("domain_regex", line.split(",")[1])
+                    elif line.split(",")[0] == "IP-CIDR" or line.split(",")[0] == "IP-CIDR6":
                         headless_rule.append("ip_cidr", line.split(",")[1])
+                    elif line.split(",")[0] == "SOURCE-IP-CIDR":
+                        headless_rule.append("source_ip_cidr", line.split(",")[1])
+                    elif line.split(",")[0] == "SRC-PORT":
+                        items = line.split(",")[1].split("/")
+                        for item in items:
+                            if "-" in item:
+                                headless_rule.append("source_port_range", ":".join(item.split("-")))
+                            else:
+                                headless_rule.append("source_port", item)
+                    elif line.split(",")[0] == "DST-PORT":
+                        items = line.split(",")[1].split("/")
+                        for item in items:
+                            if "-" in item:
+                                headless_rule.append("port_range", ":".join(item.split("-")))
+                            else:
+                                headless_rule.append("port", item)
                     elif line.split(",")[0] == "PROCESS-NAME":
                         headless_rule.append("process_name", line.split(",")[1])
+                    elif line.split(",")[0] == "PROCESS-PATH":
+                        headless_rule.append("process_path", line.split(",")[1])
 
             rule = Rule(rules=[headless_rule])
             # write source
