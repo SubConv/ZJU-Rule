@@ -1,0 +1,42 @@
+name: Generate and Update sing-box rulesets
+
+on:
+  push:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Set up sing-box
+        run: |
+          sudo curl -fsSL https://sing-box.app/gpg.key -o /etc/apt/keyrings/sagernet.asc
+          sudo chmod a+r /etc/apt/keyrings/sagernet.asc
+          echo "deb [arch=`dpkg --print-architecture` signed-by=/etc/apt/keyrings/sagernet.asc] https://deb.sagernet.org/ * *" | sudo tee /etc/apt/sources.list.d/sagernet.list > /dev/null
+          sudo apt-get update
+          sudo apt-get install sing-box
+
+      - name: Check out code
+        uses: actions/checkout@v4
+
+      - name: Generate source and compile rulesets
+        run: python3 update_sing_box.py
+
+      - name: Update sing-box branch
+        run: |
+          mv sing-box /tmp/
+          git config --global user.name "GitHub Actions"
+          git config --global user.email "actions@github.com"
+          git checkout --orphan sing-box
+          git reset --hard
+          mv /tmp/sing-box/* ./
+          git add -A
+          git commit -m "Update sing-box rulesets"
+          git push -f origin sing-box

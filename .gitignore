@@ -32,3 +32,5 @@ build/
 
 ### VS Studio ###
 .vs/
+
+__pycache__
