@@ -7,6 +7,7 @@
 
 ## 支持功能
 
++ sing-box Binary 格式规则集（见 [sing-box](https://github.com/SubConv/ZJU-Rule/tree/sing-box) 分支）
 + ZJU 内网资源/学术资源分流（直连访问/ RVPN访问）
 + 节点自动选择
 + 节点故障转移
