@@ -44,7 +44,7 @@ class HeadlessRule:
 
 @dataclass
 class Rule:
-    version: int = 1
+    version: int = 2
     rules: list[HeadlessRule] = None
 
     def dict(self):
