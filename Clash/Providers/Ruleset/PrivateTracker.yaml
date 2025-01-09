@@ -1,6 +1,6 @@
 payload:
   # 内容：PrivateTracker
-  # 数量：122条
+  # 数量：123条
   - DOMAIN-KEYWORD,announce
   - DOMAIN-KEYWORD,torrent
   - DOMAIN-KEYWORD,tracker
@@ -84,6 +84,7 @@ payload:
   - DOMAIN-SUFFIX,lemonhd.org
   - DOMAIN-SUFFIX,lztr.me
   - DOMAIN-SUFFIX,m-team.cc
+  - DOMAIN-SUFFIX,m-team.io
   - DOMAIN-SUFFIX,madsrevolution.net
   - DOMAIN-SUFFIX,moecat.best
   - DOMAIN-SUFFIX,morethan.tv

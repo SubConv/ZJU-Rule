@@ -4,7 +4,7 @@ payload:
   # UIUC
   - DOMAIN-KEYWORD,illinois
   - DOMAIN-KEYWORD,shibboleth
-  - DOMAIN-KEYWORD,sso
+  # DOMAIN-KEYWORD,sso
   - DOMAIN-KEYWORD,uiuc
   - DOMAIN-SUFFIX,canvas-user-content.com
   - DOMAIN-SUFFIX,duosecurity.com
