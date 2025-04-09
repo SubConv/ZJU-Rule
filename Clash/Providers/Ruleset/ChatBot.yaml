@@ -1,0 +1,10 @@
+payload:
+  # ChatBot
+
+  - DOMAIN-SUFFIX,bard.google.com
+  - DOMAIN-SUFFIX,claude.ai
+  - DOMAIN-SUFFIX,coze.com
+  - DOMAIN-SUFFIX,forefront.ai
+  - DOMAIN-SUFFIX,gemini.google.com
+  - DOMAIN-SUFFIX,poe.com
+  - DOMAIN-SUFFIX,poecdn.net
