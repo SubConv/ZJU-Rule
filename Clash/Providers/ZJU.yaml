@@ -28,9 +28,6 @@ payload:
   # ZJU QSC
   - DOMAIN-SUFFIX,zjuqsc.com
 
-  # 查老师
-  - DOMAIN-KEYWORD,chalaoshi
-
   # 通过 IP 认证的资源
   # 请勿添加可通过统一身份认证访问的国外资源，此类资源无需内网环境，可通过代理加速访问
   - DOMAIN-SUFFIX,acm.org
