@@ -1,6 +1,5 @@
 payload:
   # Netflix
-  # USER-AGENT,Argo*
   - DOMAIN-SUFFIX,fast.com
   - DOMAIN-SUFFIX,netflix.com
   - DOMAIN-SUFFIX,netflix.net

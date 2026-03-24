@@ -4,7 +4,6 @@ payload:
   # 数量：45条
 
   # Bilibili 哔哩哔哩
-  #   #   #   
   - DOMAIN,apiintl.biliapi.net
   - DOMAIN,upos-hz-mirrorakam.akamaized.net
   - DOMAIN-SUFFIX,acg.tv
@@ -25,7 +24,6 @@ payload:
   - DOMAIN-SUFFIX,smtcdns.net
 
   # Iqiyi 爱奇艺
-  #   #   
   - DOMAIN,intel-cache.m.iqiyi.com
   - DOMAIN,intel-cache.video.iqiyi.com
   - DOMAIN,intl-rcd.iqiyi.com
@@ -46,7 +44,7 @@ payload:
   - DOMAIN-SUFFIX,api.mob.app.letv.com
 
   # MOO
-  #   # 
+
   # TencentVideo 腾讯视频
   - DOMAIN-SUFFIX,v.smtcdns.com
   - DOMAIN-SUFFIX,vv.video.qq.com
