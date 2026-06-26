@@ -1,6 +1,6 @@
 payload:
   # 内容：GFWList 黑名单
-  # 数量：4276条
+  # 数量：4278条
   - DOMAIN-SUFFIX,*.pimg.tw
   - DOMAIN-SUFFIX,*.sf.net
   - DOMAIN-SUFFIX,*.tuzaijidi.com
@@ -817,6 +817,7 @@ payload:
   - DOMAIN-SUFFIX,crazyshit.com
   - DOMAIN-SUFFIX,crbug.com
   - DOMAIN-SUFFIX,crchina.org
+  - DOMAIN-SUFFIX,creader.com
   - DOMAIN-SUFFIX,creaders.net
   - DOMAIN-SUFFIX,creativelab5.com
   - DOMAIN-SUFFIX,cristyli.com
@@ -1373,6 +1374,7 @@ payload:
   - DOMAIN-SUFFIX,genius.com
   - DOMAIN-SUFFIX,geph.io
   - DOMAIN-SUFFIX,get.app
+  - DOMAIN-SUFFIX,get.dappcdn.com
   - DOMAIN-SUFFIX,get.dev
   - DOMAIN-SUFFIX,get.how
   - DOMAIN-SUFFIX,get.page
