@@ -1,6 +1,6 @@
 payload:
   # 内容：GFWList 黑名单
-  # 数量：4312条
+  # 数量：4314条
   - DOMAIN-SUFFIX,*.pimg.tw
   - DOMAIN-SUFFIX,*.sf.net
   - DOMAIN-SUFFIX,*.tuzaijidi.com
@@ -506,6 +506,7 @@ payload:
   - DOMAIN-SUFFIX,breakgfw.com
   - DOMAIN-SUFFIX,breakingtweets.com
   - DOMAIN-SUFFIX,breakwall.net
+  - DOMAIN-SUFFIX,briarproject.org
   - DOMAIN-SUFFIX,brill.com
   - DOMAIN-SUFFIX,brizzly.com
   - DOMAIN-SUFFIX,broadpressinc.com
@@ -650,6 +651,7 @@ payload:
   - DOMAIN-SUFFIX,chat.com
   - DOMAIN-SUFFIX,chat.lmsys.org
   - DOMAIN-SUFFIX,chatgpt.com
+  - DOMAIN-SUFFIX,chatgpt.site
   - DOMAIN-SUFFIX,chatpdf.com
   - DOMAIN-SUFFIX,chaturbate.com
   - DOMAIN-SUFFIX,checkgfw.com
