@@ -1,0 +1,3 @@
+payload:
+  # ResearchGate 主站及其子域名
+  - DOMAIN-SUFFIX,researchgate.net
